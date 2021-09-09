@@ -46,3 +46,13 @@
     padding: 25px;
 }
 
+
+.card-3
+{
+    list-style: none;
+    border : 1px dotted green;
+    padding: 25px;
+}
+.card-3 :nth-child(odd) {
+ background-color: rgb(182, 180, 180);
+}
