@@ -1,0 +1,12 @@
+h1 {
+    color: pink
+  }
+  p {
+    color: #9494cf;
+  }
+  small {
+    color: rgb(167, 174, 243);
+  }
+  .post p, .sm {
+    color: rgb(30, 129, 210);
+  }
