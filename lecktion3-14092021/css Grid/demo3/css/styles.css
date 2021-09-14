@@ -48,11 +48,10 @@ aside{
     }
 }
 
-@media(min-width: 468px){
-    aside{
-        display: block;
-    }
+@media(min-width: 992px){
+ 
     .grid{
+        grid-template-columns: 5fr 1fr;
         grid-template-areas: 
         "header header"
         "nav nav"
