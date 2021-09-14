@@ -30,7 +30,8 @@ body , html{
 .child-box{
     display: flex;
     flex-direction: column;
-     margin: 2%;
+     
+    
 }
 
 .child-box1{
