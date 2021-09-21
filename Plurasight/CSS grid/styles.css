@@ -1,0 +1,36 @@
+html,body {
+    height: auto;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 15em auto 15em;
+    grid-template-rows: min-content auto min-content;
+
+}
+
+header, footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+header{
+    background-color: rgb(184, 237, 238);
+}
+
+footer{
+    background-color: rgb(184, 237, 238);
+}
+
+
+
+/*
+summary
+define grid
+reference designs or sketch
+choose grid contianer
+define grid columns, rows
+  */
+
+
+
+/* why grid awsome */
