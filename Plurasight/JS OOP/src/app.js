@@ -1,24 +1,17 @@
-
+//import class 
  import {fleet} from '../src/fleet-data.js'
  import { Car } from './class/car.js';
  import { Drone }  from './class/drone.js';
-
-//inheritance
-
-
-//extending class
+import { FleetDataServices } from './services/fleet-data-services.js';
 
 
+let dataServices = new FleetDataServices();
 
-console.log(fleet)
+dataServices.loadData(fleet);
 
-
-
-// static mrthod
-Car.getCompanyName();
-Drone.getCompanyName();
-// instance of class or object
+console.log(dataServices.cars);
 
 
 
-let car = new Car();
+
+

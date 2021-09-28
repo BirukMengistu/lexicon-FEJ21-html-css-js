@@ -92,3 +92,4 @@ function Book(title, author, year) {
   
   console.log(dog.makeSound());
   console.log(dog.bark());
+  console.log(dog)

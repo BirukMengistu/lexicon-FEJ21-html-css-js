@@ -1,18 +1,12 @@
 //root class
 
 
-export class Vehicle {
-    start(){
-         console.log('Constract Vehicle');
-     }
-     static getCompanyName(){
-        console.log('MY COMPANY')
+export class Vehicle{
+    
+    
+    constructor(license,latLong,model){
+        this.license = license;
+        this.model = model; 
+        this.latLong = latLong;
     }
- constructor(id, name){
-        this._id = id;
-        this._name= name; 
-        
- }
- }
-
- 
+}
